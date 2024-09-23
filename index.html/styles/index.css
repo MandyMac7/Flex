@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding-inline: 20px;
+    max-height: 160px;
+    background:#F48C06;
+    width:468px ;
+    height: 160px;
+    margin: 10px;
+}
+
+
+.container1 {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container2 {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container3{
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+
+.container4 {
+    position: absolute;
+    left: 530px;
+    top: 0px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.redbox {
+    width:78px ;
+    height:78px;
+    background:#9D0208 ;
+    margin: 20px;
+}
+    
+.redbox2 {
+    width:78px ;
+    background:#9D0208 ;
+    margin: 20px;
+} 
+.box3{
+    align-self: self-end;
+}
+.container5 {
+    position: absolute;
+    left: 530px;
+    top: 171px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+  
+.container6 {
+    position: absolute;
+    left: 530px;
+    top: 342px;
+    align-content: center;
+    justify-content: stretch;
+}
+
+.box4{
+    flex-grow: 4;
+}
